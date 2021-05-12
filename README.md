@@ -1,4 +1,4 @@
-# metallb as a Nirmata add-on service
+# metallb add-on
 
 This README provides steps to install metallb load balancer for Kubernetes cluster as Nirmata add-on.
 
