@@ -11,8 +11,8 @@ This configuration is tested in layer-2 mode.
 ## Validated Versions
 
 **Metallb Version - 0.8.3
-**Nirmata Version - Cloud Edition
-**Kubernetes Version - v1.16, v1.17, v1.18, v1.19
+Nirmata Version - Cloud Edition
+Kubernetes Version - v1.16, v1.17, v1.18, v1.19
 
 
 ## How do I get set up?
