@@ -7,7 +7,12 @@ Public cloud providers offer loadbalancer type service which makes it easy to ex
 Metallb requires a routable ip range to provide an IP address to the services exposed outside the cluster.
 Metallb can support either layer-2 mode or BGP mode to access the service and advertise the routes.
 This configuration is tested in layer-2 mode.
-Tested Version - 0.8.3
+
+## Validated Versions
+
+**Metallb Version - 0.8.3
+**Nirmata Version - Cloud Edition
+**Kubernetes Version - v1.16, v1.17, v1.18, v1.19
 
 
 ## How do I get set up?
@@ -17,6 +22,7 @@ Tested Version - 0.8.3
 4. Now, go to your application that you want to expose and choose expose the deployment option
 5. Choose the service type as loadbalancer and configure the ports.
 6. Deploy the application and once it is running , verify that the service type load balancer waas assigned an IP address from the ip range.
-  
+
+
 ## Issues?
 For issues, please reach out to support@nirmata.com
