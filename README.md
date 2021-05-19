@@ -13,7 +13,7 @@ Tested Version - 0.8.3
 ## How do I get set up?
 1. Use the yaml available in the repo and import it into your default-add-on catalog in Nirmata. Edit the catalog application and select an add-on category (eg: Networking). This is required to select the application as an add-on.
 2. Cutomize the ip address range in the configmap based on your design.
-3. Go to your cluster in Nirmata, select add-on tab and choose deploy add-on from the catalog. Ensure that the namespace you use is "**metallb-system**
+3. Go to your cluster in Nirmata, select add-on tab and choose deploy add-on from the catalog. Ensure that the namespace you use is "**metallb-system**"
 4. Now, go to your application that you want to expose and choose expose the deployment option
 5. Choose the service type as loadbalancer and configure the ports.
 6. Deploy the application and once it is running , verify that the service type load balancer waas assigned an IP address from the ip range.
